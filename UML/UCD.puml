@@ -1,0 +1,24 @@
+@startuml
+:User: as user
+
+
+rectangle PokemonApp {
+    (user) -> (searchPokemon)
+
+    (Search Pokemon Species) as (searchPokemon)
+    (View Pokemon Species) as (viewSpecies)
+
+    (Add Pokemon) as (addPokemon)
+    (View Pokemon) as (viewPokemon)
+    (Edit Pokemon) as (editPokemon)
+
+    (Create Breeding Plan) as (createBreedingPlan)
+    (View Breeding Plans) as (viewBreedingPlan)
+    (Finish Breeding Plan) as (finishBreedingPlan)
+
+    (Create Training Plan) as (createTrainingPlan)
+}
+
+
+
+@enduml
